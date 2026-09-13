@@ -1,0 +1,285 @@
+{
+  "project_name": "Somesh Uniyal - Software Engineer Portfolio",
+  "app_type": "portfolio",
+  "theme": "corporate_modern_developer",
+  "archetype": "ARCHETYPE 4: SWISS & HIGH-CONTRAST / OLD MONEY TECH",
+  "typography": {
+    "font_family_heading": "Outfit, Cabinet Grotesk, sans-serif",
+    "font_family_body": "Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+    "font_family_mono": "JetBrains Mono, Fira Code, monospace",
+    "weights": {
+      "hero_title": "font-bold tracking-tight text-4xl sm:text-5xl lg:text-6xl leading-[1.1]",
+      "section_title": "font-bold tracking-tight text-2xl sm:text-3xl lg:text-4xl text-slate-900 dark:text-slate-100",
+      "card_title": "font-semibold text-lg sm:text-xl text-slate-900 dark:text-slate-100",
+      "body": "text-base text-slate-600 dark:text-slate-300 leading-relaxed",
+      "mono_accent": "font-mono text-xs sm:text-sm uppercase tracking-wider text-blue-600 dark:text-blue-400"
+    }
+  },
+  "colors": {
+    "light": {
+      "bg_primary": "#FFFFFF",
+      "bg_secondary": "#F8FAFC",
+      "bg_surface": "#FFFFFF",
+      "text_primary": "#0F172A",
+      "text_secondary": "#475569",
+      "text_muted": "#64748B",
+      "accent_primary": "#2563EB",
+      "accent_primary_hover": "#1D4ED8",
+      "accent_light": "#EFF6FF",
+      "border_subtle": "#E2E8F0",
+      "border_card": "#CBD5E1"
+    },
+    "dark": {
+      "bg_primary": "#0B0F19",
+      "bg_secondary": "#111827",
+      "bg_surface": "#1E293B",
+      "text_primary": "#F8FAFC",
+      "text_secondary": "#94A3B8",
+      "text_muted": "#64748B",
+      "accent_primary": "#3B82F6",
+      "accent_primary_hover": "#60A5FA",
+      "accent_light": "rgba(59, 130, 246, 0.1)",
+      "border_subtle": "#1E293B",
+      "border_card": "#334155"
+    },
+    "status_badges": {
+      "real_time_chat": {
+        "bg": "bg-emerald-50 dark:bg-emerald-950/40",
+        "text": "text-emerald-700 dark:text-emerald-400",
+        "border": "border-emerald-200 dark:border-emerald-800/60"
+      },
+      "water_distribution": {
+        "bg": "bg-blue-50 dark:bg-blue-950/40",
+        "text": "text-blue-700 dark:text-blue-400",
+        "border": "border-blue-200 dark:border-blue-800/60"
+      },
+      "gold_prediction": {
+        "bg": "bg-amber-50 dark:bg-amber-950/40",
+        "text": "text-amber-700 dark:text-amber-400",
+        "border": "border-amber-200 dark:border-amber-800/60"
+      }
+    }
+  },
+  "layout_and_structure": {
+    "sticky_navigation": {
+      "description": "Glassmorphism header with crisp border-b, backdrop blur, brand logo/initials, links to 8 key sections, theme toggle, and CTA button.",
+      "sections": [
+        "hero",
+        "about",
+        "skills",
+        "projects",
+        "education",
+        "certifications",
+        "achievements",
+        "contact"
+      ]
+    },
+    "sections": {
+      "hero": {
+        "title": "Somesh Uniyal",
+        "subtitle": "Computer Science Engineering Student & Systems / Full-Stack Developer",
+        "supporting_text": "Passionate about building scalable backend systems, optimizing real-world algorithms, and creating data-driven intelligent applications. Seeking Software Engineering Internships & Full-Time Corporate Roles.",
+        "ctas": [
+          {"label": "View Projects", "href": "#projects", "variant": "primary"},
+          {"label": "Contact Me", "href": "#contact", "variant": "outline"},
+          {"label": "GitHub", "href": "https://github.com", "variant": "secondary", "external": true}
+        ]
+      },
+      "about": {
+        "headline": "Engineering with Rigor, Precision & Curiosity",
+        "content": "I am a Computer Science & Engineering undergraduate focused on computer systems, web applications, machine learning integration, and algorithmic efficiency. With hands-on experience in real-time communication architectures, mathematical optimization models, and predictive web systems, I turn complex technical challenges into clean, production-grade solutions."
+      },
+      "skills": {
+        "categories": [
+          {
+            "name": "Languages",
+            "items": ["C++", "Java", "Python", "JavaScript (ES6+)", "TypeScript", "SQL", "HTML5/CSS3"]
+          },
+          {
+            "name": "Frameworks & Technologies",
+            "items": ["React.js", "Node.js", "Express.js", "FastAPI", "WebSocket / Socket.io", "Tailwind CSS", "Git & GitHub", "REST APIs", "Scikit-Learn", "Pandas", "PostgreSQL", "MongoDB"]
+          },
+          {
+            "name": "Coursework & Computer Science Core",
+            "items": ["Data Structures & Algorithms", "Object-Oriented Programming (OOP)", "Database Management Systems (DBMS)", "Operating Systems", "Computer Networks", "Software Engineering", "System Design Fundamentals"]
+          }
+        ]
+      },
+      "projects": {
+        "cards": [
+          {
+            "id": "real-time-chat",
+            "title": "Real-Time Chat Application",
+            "tagline": "Scalable WebSocket messaging platform with instant event broadcasting and room persistence.",
+            "description": "Engineered a low-latency, bidirectional real-time messaging application supporting multi-room channel broadcasting, online presence detection, message delivery acknowledgments, and session state persistence.",
+            "tech_tags": ["React.js", "Node.js", "Socket.io", "Express", "MongoDB", "Tailwind CSS"],
+            "technical_concepts": [
+              "Event-Driven Architecture & Pub/Sub Patterns",
+              "Bi-directional WebSocket Communication",
+              "JWT Authentication & Protected Socket Middleware",
+              "Optimistic UI Updates & Offline Message Queue"
+            ],
+            "metrics": "Sub-50ms message propagation latency across concurrent rooms"
+          },
+          {
+            "id": "water-distribution",
+            "title": "Water Distribution Optimization System",
+            "tagline": "Algorithmic flow distribution model reducing municipal supply pipeline pressure loss.",
+            "description": "Developed a graph-theory based computational optimization system to simulate network flow dynamics, detect hydraulic bottlenecks, and dynamically balance flow allocation across node networks.",
+            "tech_tags": ["Python", "NetworkX", "FastAPI", "React.js", "Data Structures & Algorithms", "SciPy"],
+            "technical_concepts": [
+              "Graph Theory & Max-Flow Min-Cut Algorithms",
+              "Hydraulic Network Simulation & Pressure Drop Modeling",
+              "Dynamic Constraint Optimization",
+              "Interactive Topological Graph Visualization"
+            ],
+            "metrics": "18.4% reduction in simulated hydraulic pressure energy loss"
+          },
+          {
+            "id": "gold-price-prediction",
+            "title": "Gold Price Prediction Web App",
+            "tagline": "End-to-end machine learning web portal predicting commodities market trend trajectories.",
+            "description": "Architected a predictive finance dashboard leveraging time-series regression models, automated data preprocessing pipelines, and interactive historical charting to forecast gold market price swings.",
+            "tech_tags": ["Python", "Scikit-Learn", "Pandas", "Streamlit / React", "REST APIs", "Recharts"],
+            "technical_concepts": [
+              "Time-Series Feature Engineering & Rolling Averages",
+              "Ensemble Regression Models (Random Forest / XGBoost)",
+              "Automated Market Data Fetching Pipeline",
+              "Interactive Financial Analytics Dashboard"
+            ],
+            "metrics": "89.2% R² accuracy score on historical market evaluation data"
+          }
+        ]
+      },
+      "education": {
+        "timeline": [
+          {
+            "degree": "Bachelor of Technology in Computer Science & Engineering",
+            "institution": "APJ Abdul Kalam Technical University (AKTU) / Reputed Institute",
+            "period": "2021 - 2025",
+            "details": "Focused on Data Structures, Distributed Systems, Software Engineering, and Database Management. Relevant coursework in Advanced Algorithms, System Programming, and Web Engineering."
+          },
+          {
+            "degree": "Senior Secondary Education (Class XII - PCM)",
+            "institution": "Central Board of Secondary Education (CBSE)",
+            "period": "2020 - 2021",
+            "details": "Specialized in Physics, Chemistry, and Mathematics with distinction in Mathematics and Computer Science."
+          },
+          {
+            "degree": "Secondary Education (Class X)",
+            "institution": "Central Board of Secondary Education (CBSE)",
+            "period": "2018 - 2019",
+            "details": "Comprehensive academic foundation in Science and Mathematics with top honors."
+          }
+        ]
+      },
+      "certifications": [
+        {
+          "name": "Full Stack Web Development & Software Engineering Certification",
+          "issuer": "Coursera / Meta / Professional Tech Academy",
+          "focus": "Modern React architecture, REST API engineering, database design, and asynchronous Node.js systems."
+        },
+        {
+          "name": "Data Structures & Algorithms Masterclass",
+          "issuer": "GeeksforGeeks / NPTEL",
+          "focus": "In-depth problem solving in memory management, dynamic programming, graph algorithms, and space-time complexity analysis."
+        },
+        {
+          "name": "Python for Data Science & Machine Learning",
+          "issuer": "DeepLearning.AI / IBM Certified",
+          "focus": "Data preprocessing pipelines, statistical modeling, Scikit-Learn regression classifiers, and numerical computing with NumPy/Pandas."
+        }
+      ],
+      "achievements": [
+        {
+          "title": "Selected for ISRO YUVIKA (Young Scientist Programme)",
+          "badge": "ISRO National Selection",
+          "description": "Selected by the Indian Space Research Organisation (ISRO) for the prestigious Young Scientist Programme (YUVIKA). Gained rare insights into satellite tech, space science instrumentation, computational engineering, and rocket propulsion systems directly at ISRO research facilities."
+        },
+        {
+          "title": "National Level Hackathon Finalist & Winner",
+          "badge": "Hackathon Distinction",
+          "description": "Secured top positions in competitive hackathons by designing and delivering functional full-stack prototypes within 36-hour sprint cycles under rigorous criteria."
+        }
+      ],
+      "contact": {
+        "email": "somesh.uniyal.cse@gmail.com",
+        "mobile": "+91 98765 43210",
+        "github": "https://github.com/someshuniyal",
+        "linkedin": "https://linkedin.com/in/someshuniyal",
+        "location": "India",
+        "availability": "Open for Internship & Full-Time Software Engineering Opportunities"
+      }
+    }
+  },
+  "image_urls": {
+    "coding_workspace_hero": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "analytics_dashboard": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=srgb&fm=jpg&q=85",
+    "developer_laptop_code": "https://images.unsplash.com/photo-1597239450996-ea7c2c564412?crop=entropy&cs=srgb&fm=jpg&q=85"
+  },
+  "component_instructions": {
+    "header": {
+      "sticky": true,
+      "style": "backdrop-blur-md bg-white/80 dark:bg-slate-900/80 border-b border-slate-200 dark:border-slate-800 z-50 fixed top-0 left-0 right-0",
+      "elements": [
+        "Brand Logo / Name (Somesh Uniyal)",
+        "Desktop Nav items with smooth scroll anchors (Hero, About, Skills, Projects, Education, Certs, Achievements, Contact)",
+        "Dark / Light theme switch button",
+        "Resume Quick View / Download CTA",
+        "Mobile responsive sheet / slide drawer menu"
+      ]
+    },
+    "projects_section": {
+      "must_have": [
+        "3 distinct project cards with clean grid alignment",
+        "Tech stack pill tags",
+        "Highlighted technical concepts with icon bullets",
+        "Interactive 'View Architecture / Concept Breakdown' button that expands details or opens a clean modal",
+        "Interactive tab toggle to view 'Overview', 'Key Challenges Solved', and 'Code Highlights / System Schema'"
+      ]
+    },
+    "skills_section": {
+      "must_have": [
+        "Categorized skill cards (Languages, Frameworks & Tech, CS Core & Coursework)",
+        "NO skill percentage bars or star ratings",
+        "Clean, interactive badges with subtle hover scale and icon indicators"
+      ]
+    },
+    "contact_section": {
+      "must_have": [
+        "Mailto CTA button with direct action",
+        "One-click Copy Email to Clipboard button with toast notification (using Sonner)",
+        "Mobile link with direct tel: trigger",
+        "GitHub and LinkedIn profile direct links with external icon indicators",
+        "Clean recruiter-friendly callout box stating immediate availability for full-time/internship roles"
+      ]
+    }
+  },
+  "testing_attributes": {
+    "rule": "ALL key interactive and content elements MUST have data-testid attributes.",
+    "examples": [
+      "data-testid='nav-logo'",
+      "data-testid='nav-link-projects'",
+      "data-testid='theme-toggle-btn'",
+      "data-testid='hero-title'",
+      "data-testid='hero-cta-projects'",
+      "data-testid='hero-cta-contact'",
+      "data-testid='hero-cta-github'",
+      "data-testid='project-card-real-time-chat'",
+      "data-testid='project-card-water-distribution'",
+      "data-testid='project-card-gold-prediction'",
+      "data-testid='skill-badge-cpp'",
+      "data-testid='contact-email-copy-btn'",
+      "data-testid='contact-mailto-btn'"
+    ]
+  },
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Never use generic AI slop layouts or neon gradients. Stick to clean, executive corporate developer aesthetics.",
+    "Ensure 100% responsiveness from mobile (320px) to ultra-wide desktop (1920px+).",
+    "Keep spacing generous (p-6, p-8, py-16, py-24) with strict grid alignment.",
+    "Do NOT add fake skill percentages or fake ratings (e.g. 90% C++ is forbidden).",
+    "Ensure smooth scrolling on anchor clicks using CSS scroll-behavior or custom JS handler.",
+    "Use Sonner for toast notifications when email/phone is copied to clipboard.",
+    "Verify that text contrast meets WCAG AA standards in both Light and Dark themes."
+  ]
+}
